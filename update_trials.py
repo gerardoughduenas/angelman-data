@@ -18,12 +18,20 @@ params = {
     "limit": LIMIT
 }
 
-response = requests.get(API_URL, headers=headers, params=params)
-print("STATUS CODE:", response.status_code)
-print("RESPONSE TEXT PREVIEW:")
-print(response.text[:1000])  # Print first 1000 characters for debug
-data = response.json()
+# === REQUEST + DEBUG LOGGING ===
+try:
+    response = requests.get(API_URL, headers=headers, params=params)
+    print("STATUS CODE:", response.status_code)
+    print("RESPONSE TEXT PREVIEW:")
+    print(response.text[:1000])  # Print first 1000 characters for debug
 
+    data = response.json()
+except Exception as e:
+    print("❌ Request or JSON parse failed:")
+    print(str(e))
+    exit(1)
+
+# === PROCESS TRIALS ===
 trials = []
 for study in data.get("studies", []):
     trial = {
@@ -47,4 +55,3 @@ with open("angelman-clinical-trials.json", "w") as f:
     json.dump(trials, f, indent=2)
 
 print(f"✅ Exported {len(trials)} trials")
- 
