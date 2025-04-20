@@ -9,7 +9,7 @@ params = {
 }
 headers = {
     "Accept": "application/json",
-    "User-Agent": "Mozilla/5.0 (compatible; GitHubAction/1.0)"  # <-- important
+    "User-Agent": "Mozilla/5.0 (compatible; GitHubAction/1.0)"
 }
 
 try:
