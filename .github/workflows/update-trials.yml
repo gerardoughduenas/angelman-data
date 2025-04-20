@@ -20,9 +20,9 @@ jobs:
       - name: Install requests
         run: pip install requests
 
-      - name: Run API logger
+      - name: Run update script
         run: |
-          python log_api_structure.py
+          python update_trials.py
 
       - name: Commit and push if changes
         run: |
