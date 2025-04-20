@@ -1,8 +1,6 @@
 name: Update Angelman Trials JSON
 
 on:
-  schedule:
-    - cron: '0 3 * * *'  # Runs every day at 3 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -21,8 +19,7 @@ jobs:
         run: pip install requests
 
       - name: Run update script
-        run: |
-          python update_trials.py
+        run: python update_trials.py
 
       - name: Commit and push if changes
         run: |
