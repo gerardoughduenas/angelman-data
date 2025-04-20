@@ -49,7 +49,7 @@ for study in fields:
         "BriefSummary": study.get("BriefSummary", [""])[0],
         "LocationCity": study.get("LocationCity", [""])[0],
         "LocationState": study.get("LocationState", [""])[0],
-        "LocationCountry": study.get("LocationCountry", [""])[0],
+        "LocationCountry": study.get("LocationCountry", [""])[0]
     })
 
 # === SAVE ===
