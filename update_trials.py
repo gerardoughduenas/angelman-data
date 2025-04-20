@@ -1,14 +1,24 @@
 import requests
 import json
 
-url = "https://clinicaltrials.gov/api/v1/studies"
-params = {
-    "query": "Angelman Syndrome",
-    "fields": "NCTId,BriefTitle,OverallStatus,StartDateStruct,BriefSummary,Locations",
-    "limit": 1000
+# === CONFIG ===
+API_URL = "https://clinicaltrials.gov/api/v1/studies"
+QUERY = "Angelman Syndrome"
+FIELDS = "NCTId,BriefTitle,OverallStatus,StartDateStruct,BriefSummary,Locations"
+LIMIT = 1000
+
+# === HEADERS (required to avoid 404) ===
+headers = {
+    "Accept": "application/json"
 }
 
-response = requests.get(url, params=params)
+params = {
+    "query": QUERY,
+    "fields": FIELDS,
+    "limit": LIMIT
+}
+
+response = requests.get(API_URL, headers=headers, params=params)
 data = response.json()
 
 trials = []
@@ -21,6 +31,7 @@ for study in data.get("studies", []):
         "BriefSummary": [study.get("BriefSummary", "")]
     }
 
+    # Grab the first location (if it exists)
     location = study.get("Locations", [{}])[0]
     trial["LocationCity"] = [location.get("city", "")]
     trial["LocationState"] = [location.get("state", "")]
@@ -28,5 +39,8 @@ for study in data.get("studies", []):
 
     trials.append(trial)
 
+# === OUTPUT ===
 with open("angelman-clinical-trials.json", "w") as f:
     json.dump(trials, f, indent=2)
+
+print(f"✅ Exported {len(trials)} trials")
