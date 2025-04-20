@@ -13,10 +13,11 @@ headers = {
 
 res = requests.get(url, params=params, headers=headers)
 
+# Log the actual response for debugging
 print("=== Status Code:", res.status_code)
-print("=== Response Body Start ===")
-print(res.text[:1000])  # Show only first 1000 characters
-print("=== Response Body End ===")
+print("=== Response Text Start ===")
+print(res.text[:1000])  # Preview first 1000 characters of response
+print("=== Response Text End ===")
 
 try:
     data = res.json()
