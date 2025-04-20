@@ -1,0 +1,54 @@
+[
+  {
+    "NCTId": [
+      "NCT000001"
+    ],
+    "BriefTitle": [
+      "A Study of Angelman Syndrome Treatment A"
+    ],
+    "OverallStatus": [
+      "Recruiting"
+    ],
+    "LocationCity": [
+      "Los Angeles"
+    ],
+    "LocationState": [
+      "CA"
+    ],
+    "LocationCountry": [
+      "United States"
+    ],
+    "StartDate": [
+      "2023-06-01"
+    ],
+    "BriefSummary": [
+      "This is a study exploring the effects of Treatment A on individuals with Angelman Syndrome."
+    ]
+  },
+  {
+    "NCTId": [
+      "NCT000002"
+    ],
+    "BriefTitle": [
+      "Clinical Trial for Angelman Syndrome Therapy B"
+    ],
+    "OverallStatus": [
+      "Not yet recruiting"
+    ],
+    "LocationCity": [
+      "New York"
+    ],
+    "LocationState": [
+      "NY"
+    ],
+    "LocationCountry": [
+      "United States"
+    ],
+    "StartDate": [
+      "2023-09-15"
+    ],
+    "BriefSummary": [
+      "Evaluating Therapy B in treating neurological symptoms of Angelman Syndrome."
+    ]
+  }
+]
