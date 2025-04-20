@@ -18,17 +18,28 @@ params = {
     "limit": LIMIT
 }
 
-# === REQUEST + DEBUG LOGGING ===
-try:
-    response = requests.get(API_URL, headers=headers, params=params)
-    print("STATUS CODE:", response.status_code)
-    print("RESPONSE TEXT PREVIEW:")
-    print(response.text[:1000])  # Print first 1000 characters for debug
+# === REQUEST + LOGGING ===
+response = requests.get(API_URL, headers=headers, params=params)
 
+print("STATUS CODE:", response.status_code)
+print("RESPONSE TEXT PREVIEW:")
+print(response.text[:1000])  # show first 1000 chars
+
+# === FAIL FAST if not 200 or text is empty
+if response.status_code != 200:
+    print("❌ Non-200 response received. Aborting.")
+    exit(1)
+if not response.text.strip():
+    print("❌ Empty response received. Aborting.")
+    exit(1)
+
+# === PARSE JSON ===
+try:
     data = response.json()
 except Exception as e:
-    print("❌ Request or JSON parse failed:")
-    print(str(e))
+    print("❌ JSON decode failed. Full response below:")
+    print(response.text)
+    print("Error:", str(e))
     exit(1)
 
 # === PROCESS TRIALS ===
@@ -42,7 +53,6 @@ for study in data.get("studies", []):
         "BriefSummary": [study.get("BriefSummary", "")]
     }
 
-    # Grab the first location (if it exists)
     location = study.get("Locations", [{}])[0]
     trial["LocationCity"] = [location.get("city", "")]
     trial["LocationState"] = [location.get("state", "")]
