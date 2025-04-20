@@ -8,7 +8,8 @@ params = {
     "limit": 1
 }
 headers = {
-    "Accept": "application/json"
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (compatible; GitHubAction/1.0)"  # <-- important
 }
 
 try:
