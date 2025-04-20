@@ -19,6 +19,9 @@ params = {
 }
 
 response = requests.get(API_URL, headers=headers, params=params)
+print("STATUS CODE:", response.status_code)
+print("RESPONSE TEXT PREVIEW:")
+print(response.text[:1000])  # Print first 1000 characters for debug
 data = response.json()
 
 trials = []
