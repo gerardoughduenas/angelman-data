@@ -8,7 +8,7 @@
     "LocationCity": "San Francisco",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Natera, Inc."
   },
   {
     "NCTId": "NCT04106557",
@@ -19,7 +19,7 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ovid Therapeutics Inc."
   },
   {
     "NCTId": "NCT05127226",
@@ -30,7 +30,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ionis Pharmaceuticals, Inc."
   },
   {
     "NCTId": "NCT05630066",
@@ -41,7 +41,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Hoffmann-La Roche"
   },
   {
     "NCTId": "NCT01906866",
@@ -52,7 +52,7 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Neurim Pharmaceuticals Ltd."
   },
   {
     "NCTId": "NCT05783791",
@@ -63,7 +63,7 @@
     "LocationCity": "Madison",
     "LocationState": "Wisconsin",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "University of Wisconsin, Madison"
   },
   {
     "NCTId": "NCT01531582",
@@ -74,7 +74,7 @@
     "LocationCity": "Tampa",
     "LocationState": "Florida",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "University of South Florida"
   },
   {
     "NCTId": "NCT02056665",
@@ -85,7 +85,7 @@
     "LocationCity": "Madrid",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": ""
+    "Sponsor": "Puerta de Hierro University Hospital"
   },
   {
     "NCTId": "NCT05945576",
@@ -96,7 +96,7 @@
     "LocationCity": "Angers",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France"
   },
   {
     "NCTId": "NCT04863794",
@@ -107,7 +107,7 @@
     "LocationCity": "Groningen",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": ""
+    "Sponsor": "Hoffmann-La Roche"
   },
   {
     "NCTId": "NCT00773825",
@@ -118,7 +118,7 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
   },
   {
     "NCTId": "NCT02226458",
@@ -129,7 +129,7 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": ""
+    "Sponsor": "Edison Pharmaceuticals Inc"
   },
   {
     "NCTId": "NCT06878716",
@@ -140,7 +140,7 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
   },
   {
     "NCTId": "NCT00829439",
@@ -151,7 +151,7 @@
     "LocationCity": "Boston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Boston Children's Hospital"
   },
   {
     "NCTId": "NCT06314490",
@@ -162,7 +162,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "University of California, San Diego"
   },
   {
     "NCTId": "NCT06617429",
@@ -173,7 +173,7 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ultragenyx Pharmaceutical Inc"
   },
   {
     "NCTId": "NCT04155944",
@@ -184,7 +184,7 @@
     "LocationCity": "Tainan",
     "LocationState": "",
     "LocationCountry": "Taiwan",
-    "Sponsor": ""
+    "Sponsor": "National Cheng-Kung University Hospital"
   },
   {
     "NCTId": "NCT05727046",
@@ -195,7 +195,7 @@
     "LocationCity": "Istanbul",
     "LocationState": "",
     "LocationCountry": "Turkey",
-    "Sponsor": ""
+    "Sponsor": "Karadeniz Technical University"
   },
   {
     "NCTId": "NCT06415344",
@@ -206,7 +206,7 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ultragenyx Pharmaceutical Inc"
   },
   {
     "NCTId": "NCT06353620",
@@ -217,7 +217,7 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": ""
+    "Sponsor": "IRCCS Eugenio Medea"
   },
   {
     "NCTId": "NCT01903681",
@@ -228,7 +228,7 @@
     "LocationCity": "Leiden",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": ""
+    "Sponsor": "Neurim Pharmaceuticals Ltd."
   },
   {
     "NCTId": "NCT03882918",
@@ -239,7 +239,7 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ovid Therapeutics Inc."
   },
   {
     "NCTId": "NCT02670694",
@@ -250,7 +250,7 @@
     "LocationCity": "Birmingham",
     "LocationState": "Alabama",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Baylor College of Medicine"
   },
   {
     "NCTId": "NCT06737718",
@@ -261,7 +261,7 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
   },
   {
     "NCTId": "NCT02109770",
@@ -272,7 +272,7 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Natera, Inc."
   },
   {
     "NCTId": "NCT01147575",
@@ -283,7 +283,7 @@
     "LocationCity": "Vienna",
     "LocationState": "",
     "LocationCountry": "Austria",
-    "Sponsor": ""
+    "Sponsor": "Medical University of Vienna"
   },
   {
     "NCTId": "NCT01281475",
@@ -294,7 +294,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Wen-Hann Tan"
   },
   {
     "NCTId": "NCT05100810",
@@ -305,7 +305,7 @@
     "LocationCity": "Oxford",
     "LocationState": "Oxon",
     "LocationCountry": "United Kingdom",
-    "Sponsor": ""
+    "Sponsor": "University of Oxford"
   },
   {
     "NCTId": "NCT04428281",
@@ -316,7 +316,7 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Hoffmann-La Roche"
   },
   {
     "NCTId": "NCT06229769",
@@ -327,7 +327,7 @@
     "LocationCity": "Li\u00e8ge",
     "LocationState": "",
     "LocationCountry": "Belgium",
-    "Sponsor": ""
+    "Sponsor": "Centre Hospitalier Universitaire de Liege"
   },
   {
     "NCTId": "NCT03650569",
@@ -338,7 +338,7 @@
     "LocationCity": "Bergamo",
     "LocationState": "",
     "LocationCountry": "Italy",
-    "Sponsor": ""
+    "Sponsor": "FROM- Fondazione per la Ricerca Ospedale di Bergamo- ETS"
   },
   {
     "NCTId": "NCT03655223",
@@ -349,7 +349,7 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "RTI International"
   },
   {
     "NCTId": "NCT04259281",
@@ -360,7 +360,7 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ultragenyx Pharmaceutical Inc"
   },
   {
     "NCTId": "NCT06139172",
@@ -371,7 +371,7 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Rush University Medical Center"
   },
   {
     "NCTId": "NCT03358823",
@@ -382,7 +382,7 @@
     "LocationCity": "Shanghai",
     "LocationState": "Shanghai",
     "LocationCountry": "China",
-    "Sponsor": ""
+    "Sponsor": "Fudan University"
   },
   {
     "NCTId": "NCT01852708",
@@ -393,7 +393,7 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Natera, Inc."
   },
   {
     "NCTId": "NCT03836300",
@@ -404,7 +404,7 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "RTI International"
   },
   {
     "NCTId": "NCT00296764",
@@ -415,7 +415,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Boston Children's Hospital"
   },
   {
     "NCTId": "NCT05293184",
@@ -426,7 +426,7 @@
     "LocationCity": "Brisbane",
     "LocationState": "Queensland",
     "LocationCountry": "Australia",
-    "Sponsor": ""
+    "Sponsor": "Foundation for Angelman Syndrome Therapeutics, Australia"
   },
   {
     "NCTId": "NCT04768803",
@@ -437,7 +437,7 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "University Hospital, Toulouse"
   },
   {
     "NCTId": "NCT03109756",
@@ -448,7 +448,7 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ovid Therapeutics Inc."
   },
   {
     "NCTId": "NCT06914609",
@@ -459,7 +459,7 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": ""
+    "Sponsor": "Ionis Pharmaceuticals, Inc."
   },
   {
     "NCTId": "NCT06115109",
@@ -470,7 +470,7 @@
     "LocationCity": "Barcelona",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": ""
+    "Sponsor": "Puerta de Hierro University Hospital"
   },
   {
     "NCTId": "NCT03644693",
@@ -481,7 +481,7 @@
     "LocationCity": "Aurora",
     "LocationState": "Colorado",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "University of Colorado, Denver"
   },
   {
     "NCTId": "NCT03235037",
@@ -492,7 +492,7 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": ""
+    "Sponsor": "Bennett Lavenstein"
   },
   {
     "NCTId": "NCT05011851",
@@ -503,7 +503,7 @@
     "LocationCity": "Randwick",
     "LocationState": "New South Wales",
     "LocationCountry": "Australia",
-    "Sponsor": ""
+    "Sponsor": "Neuren Pharmaceuticals Limited"
   },
   {
     "NCTId": "NCT03878251",
@@ -514,7 +514,7 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": ""
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
   },
   {
     "NCTId": "NCT00004351",
@@ -525,7 +525,7 @@
     "LocationCity": "Houston",
     "LocationState": "Texas",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)"
   },
   {
     "NCTId": "NCT00348933",
@@ -536,7 +536,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "University of California, San Diego"
   },
   {
     "NCTId": "NCT03720028",
@@ -547,7 +547,7 @@
     "LocationCity": "Leuven",
     "LocationState": "Vlaams-Brabant",
     "LocationCountry": "Belgium",
-    "Sponsor": ""
+    "Sponsor": "Universitaire Ziekenhuizen KU Leuven"
   },
   {
     "NCTId": "NCT05637697",
@@ -558,7 +558,7 @@
     "LocationCity": "Kingston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "The Emmes Company, LLC"
   },
   {
     "NCTId": "NCT06337383",
@@ -569,7 +569,7 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": ""
+    "Sponsor": "IRCCS Eugenio Medea"
   },
   {
     "NCTId": "NCT02996305",
@@ -580,7 +580,7 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Ovid Therapeutics Inc."
   },
   {
     "NCTId": "NCT04103333",
@@ -591,7 +591,7 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Biogen"
   },
   {
     "NCTId": "NCT04507997",
@@ -602,6 +602,6 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": ""
+    "Sponsor": "Boston Children's Hospital"
   }
 ]
