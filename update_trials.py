@@ -39,7 +39,7 @@ for study in studies:
     statmod = ps.get("statusModule", {})
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
-    sponsormod = ps.get("sponsorsModule", {})
+    sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
     trial = {
         "NCTId": idmod.get("nctId", ""),
