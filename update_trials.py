@@ -7,14 +7,14 @@ QUERY = "Angelman Syndrome"
 FIELDS = "NCTId,BriefTitle,OverallStatus,StartDateStruct,BriefSummary,Locations"
 LIMIT = 1000
 
+headers = {
+    "Accept": "application/json"
+}
+
 params = {
     "query": QUERY,
     "fields": FIELDS,
     "limit": LIMIT
-}
-
-headers = {
-    "Accept": "application/json"
 }
 
 # === FETCH + VALIDATE ===
@@ -35,7 +35,7 @@ except Exception as e:
     print(response.text[:1000])
     exit(1)
 
-# === EXTRACT DATA ===
+# === EXTRACT TRIALS ===
 trials = []
 for study in data.get("studies", []):
     trial = {
@@ -46,7 +46,7 @@ for study in data.get("studies", []):
         "BriefSummary": study.get("BriefSummary", "")
     }
 
-    # Get first location if it exists
+    # Try to get first location if available
     location = study.get("Locations", [{}])[0]
     trial["LocationCity"] = location.get("city", "")
     trial["LocationState"] = location.get("state", "")
