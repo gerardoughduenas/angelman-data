@@ -2,23 +2,23 @@ import requests
 import json
 
 # === CONFIG ===
-API_URL = "https://clinicaltrials.gov/api/v1/studies"
+API_URL = "https://clinicaltrials.gov/api/v2/studies"
 QUERY = "Angelman Syndrome"
-FIELDS = "NCTId,BriefTitle,OverallStatus,StartDateStruct,BriefSummary,Locations"
+FIELDS = [
+    "nctId", "briefTitle", "overallStatus", "startDate", "briefSummary",
+    "locations.city", "locations.state", "locations.country"
+]
 LIMIT = 1000
 
-headers = {
-    "Accept": "application/json"
-}
-
 params = {
-    "query": QUERY,
-    "fields": FIELDS,
-    "limit": LIMIT
+    "query.term": QUERY,
+    "fields": ",".join(FIELDS),
+    "pageSize": LIMIT,
+    "format": "json"
 }
 
 # === FETCH + VALIDATE ===
-response = requests.get(API_URL, headers=headers, params=params)
+response = requests.get(API_URL, params=params)
 print("STATUS CODE:", response.status_code)
 
 if response.status_code != 200:
@@ -35,27 +35,22 @@ except Exception as e:
     print(response.text[:1000])
     exit(1)
 
-# === EXTRACT TRIALS ===
-trials = []
-for study in data.get("studies", []):
-    trial = {
-        "NCTId": study.get("NCTId", ""),
-        "BriefTitle": study.get("BriefTitle", ""),
-        "OverallStatus": study.get("OverallStatus", ""),
-        "StartDate": study.get("StartDateStruct", {}).get("date", ""),
-        "BriefSummary": study.get("BriefSummary", "")
-    }
+# === EXTRACT DATA ===
+studies = data.get("studies", [])
+output = []
 
-    # Try to get first location if available
-    location = study.get("Locations", [{}])[0]
-    trial["LocationCity"] = location.get("city", "")
-    trial["LocationState"] = location.get("state", "")
-    trial["LocationCountry"] = location.get("country", "")
-
-    trials.append(trial)
+for study in studies:
+    loc = study.get("locations", [{}])[0] if study.get("locations") else {}
+    output.append({
+        "NCTId": study.get("nctId", ""),
+        "BriefTitle": study.get("briefTitle", ""),
+        "OverallStatus": study.get("overallStatus", ""),
+        "StartDate": study.get("startDate", ""),
+        "BriefSummary": study.get("briefSummary", ""),
+        "LocationCity": loc.get("city", ""),
+        "LocationState": loc.get("state", ""),
+        "LocationCountry": loc.get("country", "")
+    })
 
 # === SAVE ===
-with open("angelman-clinical-trials.json", "w") as f:
-    json.dump(trials, f, indent=2)
-
-print(f"✅ Exported {len(trials)} trials")
+with open("angelman-clinical-trials.json", "w") as f
