@@ -39,6 +39,7 @@ for study in studies:
     statmod = ps.get("statusModule", {})
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
+    sponsor_mod = ps.get("sponsorCollaboratorsModule", {})
 
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -48,7 +49,8 @@ for study in studies:
         "BriefSummary": descmod.get("briefSummary", ""),
         "LocationCity": "",
         "LocationState": "",
-        "LocationCountry": ""
+        "LocationCountry": "",
+        "Sponsor": sponsor_mod.get("leadSponsor", {}).get("name", "")
     }
 
     # ✅ FIXED: Pull directly from top-level location fields
