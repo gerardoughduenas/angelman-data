@@ -34,24 +34,31 @@ studies = data.get("studies", [])
 trials = []
 
 for study in studies:
+    ps = study.get("protocolSection", {})
+    idmod = ps.get("identificationModule", {})
+    statmod = ps.get("statusModule", {})
+    descmod = ps.get("descriptionModule", {})
+    contactmod = ps.get("contactsLocationsModule", {})
+
     trial = {
-        "NCTId": study.get("protocolSection", {}).get("identificationModule", {}).get("nctId", ""),
-        "BriefTitle": study.get("protocolSection", {}).get("identificationModule", {}).get("briefTitle", ""),
-        "OverallStatus": study.get("protocolSection", {}).get("statusModule", {}).get("overallStatus", ""),
-        "StartDate": study.get("protocolSection", {}).get("statusModule", {}).get("startDate", ""),  # ✅ Fixed
-        "BriefSummary": study.get("protocolSection", {}).get("descriptionModule", {}).get("briefSummary", ""),
+        "NCTId": idmod.get("nctId", ""),
+        "BriefTitle": idmod.get("briefTitle", ""),
+        "OverallStatus": statmod.get("overallStatus", ""),
+        "StartDate": statmod.get("startDateStruct", {}).get("date", ""),  # fallback if "startDate" is empty
+        "BriefSummary": descmod.get("briefSummary", ""),
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": ""
     }
 
-    # Add first location details if present
-    locations = study.get("protocolSection", {}).get("contactsLocationsModule", {}).get("locations", [])
-    if locations:
-        loc = locations[0].get("locationFacility", {})
-        trial["LocationCity"] = loc.get("city", "")
-        trial["LocationState"] = loc.get("state", "")
-        trial["LocationCountry"] = loc.get("country", "")
+    # === FIX: Extract location info if available ===
+    locations = contactmod.get("locations", [])
+    if locations and isinstance(locations, list):
+        first_loc = locations[0]
+        facility = first_loc.get("locationFacility", {})
+        trial["LocationCity"] = facility.get("city", "")
+        trial["LocationState"] = facility.get("state", "")
+        trial["LocationCountry"] = facility.get("country", "")
 
     trials.append(trial)
 
