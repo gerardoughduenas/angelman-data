@@ -54,4 +54,6 @@ for study in studies:
 
 # === SAVE ===
 with open("angelman-clinical-trials.json", "w") as f:
+    json.dump(output, f, indent=2)
 
+print(f"✅ Exported {len(output)} trials")
