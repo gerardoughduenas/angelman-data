@@ -44,21 +44,20 @@ for study in studies:
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
         "OverallStatus": statmod.get("overallStatus", ""),
-        "StartDate": statmod.get("startDateStruct", {}).get("date", ""),  # fallback if "startDate" is empty
+        "StartDate": statmod.get("startDateStruct", {}).get("date", ""),
         "BriefSummary": descmod.get("briefSummary", ""),
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": ""
     }
 
-    # === FIX: Extract location info if available ===
+    # ✅ FIXED: Pull directly from top-level location fields
     locations = contactmod.get("locations", [])
     if locations and isinstance(locations, list):
         first_loc = locations[0]
-        facility = first_loc.get("locationFacility", {})
-        trial["LocationCity"] = facility.get("city", "")
-        trial["LocationState"] = facility.get("state", "")
-        trial["LocationCountry"] = facility.get("country", "")
+        trial["LocationCity"] = first_loc.get("city", "")
+        trial["LocationState"] = first_loc.get("state", "")
+        trial["LocationCountry"] = first_loc.get("country", "")
 
     trials.append(trial)
 
