@@ -4,17 +4,11 @@ import json
 # === CONFIG ===
 API_URL = "https://clinicaltrials.gov/api/v2/studies"
 QUERY = "Angelman Syndrome"
-FIELDS = [
-    "nctId", "briefTitle", "overallStatus", "startDate", "briefSummary",
-    "locations.city", "locations.state", "locations.country"
-]
 LIMIT = 1000
 
 params = {
     "query.term": QUERY,
-    "fields": ",".join(FIELDS),
-    "pageSize": LIMIT,
-    "format": "json"
+    "pageSize": LIMIT
 }
 
 # === FETCH + VALIDATE ===
@@ -35,25 +29,34 @@ except Exception as e:
     print(response.text[:1000])
     exit(1)
 
-# === EXTRACT DATA ===
+# === EXTRACT STUDY DATA ===
 studies = data.get("studies", [])
-output = []
+trials = []
 
 for study in studies:
-    loc = study.get("locations", [{}])[0] if study.get("locations") else {}
-    output.append({
-        "NCTId": study.get("nctId", ""),
-        "BriefTitle": study.get("briefTitle", ""),
-        "OverallStatus": study.get("overallStatus", ""),
-        "StartDate": study.get("startDate", ""),
-        "BriefSummary": study.get("briefSummary", ""),
-        "LocationCity": loc.get("city", ""),
-        "LocationState": loc.get("state", ""),
-        "LocationCountry": loc.get("country", "")
-    })
+    trial = {
+        "NCTId": study.get("protocolSection", {}).get("identificationModule", {}).get("nctId", ""),
+        "BriefTitle": study.get("protocolSection", {}).get("identificationModule", {}).get("briefTitle", ""),
+        "OverallStatus": study.get("protocolSection", {}).get("statusModule", {}).get("overallStatus", ""),
+        "StartDate": study.get("protocolSection", {}).get("statusModule", {}).get("startDateStruct", {}).get("date", ""),
+        "BriefSummary": study.get("protocolSection", {}).get("descriptionModule", {}).get("briefSummary", ""),
+        "LocationCity": "",
+        "LocationState": "",
+        "LocationCountry": ""
+    }
+
+    # Add first location details if present
+    locations = study.get("protocolSection", {}).get("contactsLocationsModule", {}).get("locations", [])
+    if locations:
+        loc = locations[0].get("locationFacility", {})
+        trial["LocationCity"] = loc.get("city", "")
+        trial["LocationState"] = loc.get("state", "")
+        trial["LocationCountry"] = loc.get("country", "")
+
+    trials.append(trial)
 
 # === SAVE ===
 with open("angelman-clinical-trials.json", "w") as f:
-    json.dump(output, f, indent=2)
+    json.dump(trials, f, indent=2)
 
-print(f"✅ Exported {len(output)} trials")
+print(f"✅ Exported {len(trials)} trials")
