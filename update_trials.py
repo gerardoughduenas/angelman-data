@@ -31,31 +31,32 @@ except Exception as e:
 
 # === EXTRACT STUDY DATA ===
 studies = data.get("studies", [])
-results = []
+trials = []
 
 for study in studies:
-    result = {
+    trial = {
         "NCTId": study.get("protocolSection", {}).get("identificationModule", {}).get("nctId", ""),
         "BriefTitle": study.get("protocolSection", {}).get("identificationModule", {}).get("briefTitle", ""),
         "OverallStatus": study.get("protocolSection", {}).get("statusModule", {}).get("overallStatus", ""),
-        "StartDate": study.get("protocolSection", {}).get("statusModule", {}).get("startDateStruct", {}).get("startDate", {}).get("value", ""),
-        "BriefSummary": study.get("protocolSection", {}).get("descriptionModule", {}).get("briefSummary", "")
+        "StartDate": study.get("protocolSection", {}).get("statusModule", {}).get("startDate", ""),  # ✅ Fixed
+        "BriefSummary": study.get("protocolSection", {}).get("descriptionModule", {}).get("briefSummary", ""),
+        "LocationCity": "",
+        "LocationState": "",
+        "LocationCountry": ""
     }
 
-    # Extract first available location details
+    # Add first location details if present
     locations = study.get("protocolSection", {}).get("contactsLocationsModule", {}).get("locations", [])
     if locations:
-        loc = locations[0]
-        result["LocationCity"] = loc.get("city", "")
-        result["LocationState"] = loc.get("state", "")
-        result["LocationCountry"] = loc.get("country", "")
-    else:
-        result["LocationCity"] = result["LocationState"] = result["LocationCountry"] = ""
+        loc = locations[0].get("locationFacility", {})
+        trial["LocationCity"] = loc.get("city", "")
+        trial["LocationState"] = loc.get("state", "")
+        trial["LocationCountry"] = loc.get("country", "")
 
-    results.append(result)
+    trials.append(trial)
 
 # === SAVE ===
 with open("angelman-clinical-trials.json", "w") as f:
-    json.dump(results, f, indent=2)
+    json.dump(trials, f, indent=2)
 
-print(f"✅ Exported {len(results)} trials")
+print(f"✅ Exported {len(trials)} trials")
