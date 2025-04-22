@@ -41,6 +41,17 @@ for study in studies:
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
+    # === Collect all locations (direct path) ===
+    all_locations = []
+    for loc in contactmod.get("locations", []):
+        loc_data = {
+            "city": loc.get("city", ""),
+            "state": loc.get("state", ""),
+            "country": loc.get("country", "")
+        }
+        if any(loc_data.values()):
+            all_locations.append(loc_data)
+
     # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -51,16 +62,15 @@ for study in studies:
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": "",
-        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", "")
+        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
+        "AllLocations": all_locations
     }
 
-    # ✅ Pull first location fields for fallback
-    locations = contactmod.get("locations", [])
-    if locations and isinstance(locations, list):
-        first_loc = locations[0]
-        trial["LocationCity"] = first_loc.get("city", "")
-        trial["LocationState"] = first_loc.get("state", "")
-        trial["LocationCountry"] = first_loc.get("country", "")
+    # ✅ Fallback to first location
+    if all_locations:
+        trial["LocationCity"] = all_locations[0]["city"]
+        trial["LocationState"] = all_locations[0]["state"]
+        trial["LocationCountry"] = all_locations[0]["country"]
 
     trials.append(trial)
 
