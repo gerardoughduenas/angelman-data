@@ -41,18 +41,6 @@ for study in studies:
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
-    # === Collect all locations as array of dicts ===
-    all_locations = []
-    for loc in contactmod.get("locations", []):
-        facility = loc.get("locationFacility", {})
-        loc_data = {
-            "city": facility.get("city", ""),
-            "state": facility.get("state", ""),
-            "country": facility.get("country", "")
-        }
-        if any(loc_data.values()):
-            all_locations.append(loc_data)
-
     # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -63,15 +51,16 @@ for study in studies:
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": "",
-        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
-        "AllLocations": all_locations
+        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", "")
     }
 
-    # ✅ Restore fallback to first location
-    if all_locations:
-        trial["LocationCity"] = all_locations[0]["city"]
-        trial["LocationState"] = all_locations[0]["state"]
-        trial["LocationCountry"] = all_locations[0]["country"]
+    # ✅ Pull first location fields for fallback
+    locations = contactmod.get("locations", [])
+    if locations and isinstance(locations, list):
+        first_loc = locations[0]
+        trial["LocationCity"] = first_loc.get("city", "")
+        trial["LocationState"] = first_loc.get("state", "")
+        trial["LocationCountry"] = first_loc.get("country", "")
 
     trials.append(trial)
 
