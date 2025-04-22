@@ -40,7 +40,7 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
-    eligmod = ps.get("eligibilityModule", {})
+    eligibilitymod = ps.get("eligibilityModule", {})
 
     # Collect all locations
     all_locations = []
@@ -54,6 +54,9 @@ for study in studies:
         if any(loc_data.values()):
             all_locations.append(loc_data)
 
+    # Collect age groups
+    age_groups = eligibilitymod.get("ageGroups", [])
+
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -65,12 +68,12 @@ for study in studies:
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
-        "MinimumAge": eligmod.get("minimumAge", ""),
-        "MaximumAge": eligmod.get("maximumAge", ""),
-        "AgeGroups": eligmod.get("ageGroups", [])
+        "MinimumAge": eligibilitymod.get("minimumAge", ""),
+        "MaximumAge": eligibilitymod.get("maximumAge", ""),
+        "AgeGroups": age_groups
     }
 
-    # Fallback to first location
+    # Fallback for primary location
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
