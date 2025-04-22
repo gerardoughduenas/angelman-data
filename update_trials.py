@@ -40,19 +40,20 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
+    eligmod = ps.get("eligibilityModule", {})
 
-    # === Collect all locations (direct path) ===
+    # Collect all locations
     all_locations = []
     for loc in contactmod.get("locations", []):
+        facility = loc.get("locationFacility", {})
         loc_data = {
-            "city": loc.get("city", ""),
-            "state": loc.get("state", ""),
-            "country": loc.get("country", "")
+            "city": facility.get("city", ""),
+            "state": facility.get("state", ""),
+            "country": facility.get("country", "")
         }
         if any(loc_data.values()):
             all_locations.append(loc_data)
 
-    # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -63,10 +64,13 @@ for study in studies:
         "LocationState": "",
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
-        "AllLocations": all_locations
+        "AllLocations": all_locations,
+        "MinimumAge": eligmod.get("minimumAge", ""),
+        "MaximumAge": eligmod.get("maximumAge", ""),
+        "AgeGroups": eligmod.get("ageGroups", [])
     }
 
-    # ✅ Fallback to first location
+    # Fallback to first location
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
