@@ -41,7 +41,7 @@ for study in studies:
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
-    # Collect all locations
+    # === Collect all locations as array of dicts ===
     all_locations = []
     for loc in contactmod.get("locations", []):
         facility = loc.get("locationFacility", {})
@@ -53,6 +53,7 @@ for study in studies:
         if any(loc_data.values()):
             all_locations.append(loc_data)
 
+    # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -66,7 +67,7 @@ for study in studies:
         "AllLocations": all_locations
     }
 
-    # Fallback to first location for legacy display
+    # ✅ Restore fallback to first location
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
