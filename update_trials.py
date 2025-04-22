@@ -54,6 +54,11 @@ for study in studies:
         if any(loc_data.values()):
             all_locations.append(loc_data)
 
+    # ✅ Age data
+    min_age = eligmod.get("minimumAge", "")
+    max_age = eligmod.get("maximumAge", "")
+    age_groups = eligmod.get("ageGroups", [])
+
     # ✅ Trial object
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -66,12 +71,12 @@ for study in studies:
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
-        "MinimumAge": eligmod.get("minimumAge", ""),
-        "MaximumAge": eligmod.get("maximumAge", ""),
-        "AgeGroups": eligmod.get("ageGroups", [])
+        "MinimumAge": min_age,
+        "MaximumAge": max_age,
+        "AgeGroups": age_groups
     }
 
-    # ✅ Fallback for first location
+    # ✅ Fallback to first location
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
