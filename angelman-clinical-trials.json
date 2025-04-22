@@ -8,7 +8,114 @@
     "LocationCity": "San Francisco",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "AllLocations": [
+      {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Camden",
+        "state": "New Jersey",
+        "country": "United States"
+      },
+      {
+        "city": "Mount Laurel",
+        "state": "New Jersey",
+        "country": "United States"
+      },
+      {
+        "city": "New Brunswick",
+        "state": "New Jersey",
+        "country": "United States"
+      },
+      {
+        "city": "Garden City",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Manhasset",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Mineola",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "New Hyde Park",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Port Jefferson",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Longview",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      },
+      {
+        "city": "Camperdown",
+        "state": "New South Wales",
+        "country": "Australia"
+      },
+      {
+        "city": "Dublin",
+        "state": "",
+        "country": "Ireland"
+      },
+      {
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Gothenburg",
+        "state": "",
+        "country": "Sweden"
+      },
+      {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT04106557",
@@ -19,7 +126,79 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "AllLocations": [
+      {
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Lexington",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "country": "United States"
+      },
+      {
+        "city": "Media",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Tacoma",
+        "state": "Washington",
+        "country": "United States"
+      },
+      {
+        "city": "Brisbane",
+        "state": "Queensland",
+        "country": "Australia"
+      },
+      {
+        "city": "Heidelberg",
+        "state": "Victoria",
+        "country": "Australia"
+      },
+      {
+        "city": "Munich",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      },
+      {
+        "city": "Rotterdam",
+        "state": "",
+        "country": "Netherlands"
+      }
+    ]
   },
   {
     "NCTId": "NCT05127226",
@@ -30,7 +209,64 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ionis Pharmaceuticals, Inc."
+    "Sponsor": "Ionis Pharmaceuticals, Inc.",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Aurora",
+        "state": "Colorado",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Carrboro",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Randwick",
+        "state": "",
+        "country": "Australia"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      },
+      {
+        "city": "Pisa",
+        "state": "",
+        "country": "Italy"
+      },
+      {
+        "city": "Oxford",
+        "state": "Oxfordshire",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT05630066",
@@ -41,7 +277,114 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Carrboro",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Tacoma",
+        "state": "Washington",
+        "country": "United States"
+      },
+      {
+        "city": "South Brisbane",
+        "state": "Queensland",
+        "country": "Australia"
+      },
+      {
+        "city": "Bedford Park",
+        "state": "South Australia",
+        "country": "Australia"
+      },
+      {
+        "city": "Brest",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Dijon",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Marseille",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "M\u00fcnchen",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Roma",
+        "state": "Lazio",
+        "country": "Italy"
+      },
+      {
+        "city": "Genova",
+        "state": "Liguria",
+        "country": "Italy"
+      },
+      {
+        "city": "Conegliano Veneto (TV)",
+        "state": "Veneto",
+        "country": "Italy"
+      },
+      {
+        "city": "Esplugues De Llobregat \u00b7 Barcelona",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Sabadell",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Pamplona",
+        "state": "Navarra",
+        "country": "Spain"
+      },
+      {
+        "city": "Madrid",
+        "state": "",
+        "country": "Spain"
+      }
+    ]
   },
   {
     "NCTId": "NCT01906866",
@@ -52,7 +395,149 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Neurim Pharmaceuticals Ltd."
+    "Sponsor": "Neurim Pharmaceuticals Ltd.",
+    "AllLocations": [
+      {
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States"
+      },
+      {
+        "city": "Miami Lakes",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Orange City",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "West Palm Beach",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Smyrna",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Naperville",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Baltimore",
+        "state": "Maryland",
+        "country": "United States"
+      },
+      {
+        "city": "Henderson",
+        "state": "Nevada",
+        "country": "United States"
+      },
+      {
+        "city": "Voorhees",
+        "state": "New Jersey",
+        "country": "United States"
+      },
+      {
+        "city": "Danville",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "DeSoto",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Clinton",
+        "state": "Utah",
+        "country": "United States"
+      },
+      {
+        "city": "Bothell",
+        "state": "Washington",
+        "country": "United States"
+      },
+      {
+        "city": "Helsinki",
+        "state": "",
+        "country": "Finland"
+      },
+      {
+        "city": "Garches",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Strasbourg,",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Dordrecht",
+        "state": "",
+        "country": "Netherlands"
+      },
+      {
+        "city": "Ede",
+        "state": "",
+        "country": "Netherlands"
+      },
+      {
+        "city": "Groningen",
+        "state": "",
+        "country": "Netherlands"
+      },
+      {
+        "city": "Birmingham",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "Blackpool",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "Southampton",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT05783791",
@@ -63,7 +548,14 @@
     "LocationCity": "Madison",
     "LocationState": "Wisconsin",
     "LocationCountry": "United States",
-    "Sponsor": "University of Wisconsin, Madison"
+    "Sponsor": "University of Wisconsin, Madison",
+    "AllLocations": [
+      {
+        "city": "Madison",
+        "state": "Wisconsin",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT01531582",
@@ -74,7 +566,14 @@
     "LocationCity": "Tampa",
     "LocationState": "Florida",
     "LocationCountry": "United States",
-    "Sponsor": "University of South Florida"
+    "Sponsor": "University of South Florida",
+    "AllLocations": [
+      {
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT02056665",
@@ -85,7 +584,14 @@
     "LocationCity": "Madrid",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": "Puerta de Hierro University Hospital"
+    "Sponsor": "Puerta de Hierro University Hospital",
+    "AllLocations": [
+      {
+        "city": "Madrid",
+        "state": "",
+        "country": "Spain"
+      }
+    ]
   },
   {
     "NCTId": "NCT05945576",
@@ -96,7 +602,109 @@
     "LocationCity": "Angers",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France"
+    "Sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France",
+    "AllLocations": [
+      {
+        "city": "Angers",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Besan\u00e7on",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Clermont-Ferrand",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Le Kremlin-Bic\u00eatre",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Lille",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Limoges",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Lyon",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Marseille",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Nancy",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Nantes",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Rennes",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Strasbourg",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Toulouse",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Toulouse",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Tours",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT04863794",
@@ -107,7 +715,14 @@
     "LocationCity": "Groningen",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "AllLocations": [
+      {
+        "city": "Groningen",
+        "state": "",
+        "country": "Netherlands"
+      }
+    ]
   },
   {
     "NCTId": "NCT00773825",
@@ -118,7 +733,14 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "AllLocations": [
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT02226458",
@@ -129,7 +751,8 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Edison Pharmaceuticals Inc"
+    "Sponsor": "Edison Pharmaceuticals Inc",
+    "AllLocations": []
   },
   {
     "NCTId": "NCT06878716",
@@ -140,7 +763,14 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "AllLocations": [
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT00829439",
@@ -151,7 +781,14 @@
     "LocationCity": "Boston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "AllLocations": [
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT06314490",
@@ -162,7 +799,14 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "University of California, San Diego"
+    "Sponsor": "University of California, San Diego",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT06617429",
@@ -173,7 +817,154 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "AllLocations": [
+      {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States"
+      },
+      {
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Kansas City",
+        "state": "Missouri",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Chapel Hill",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "South Brisbane",
+        "state": "",
+        "country": "Australia"
+      },
+      {
+        "city": "Sydney",
+        "state": "",
+        "country": "Australia"
+      },
+      {
+        "city": "Montr\u00e9al",
+        "state": "",
+        "country": "Canada"
+      },
+      {
+        "city": "Vancouver",
+        "state": "",
+        "country": "Canada"
+      },
+      {
+        "city": "Hamburg",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Leipzig",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Munich",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Nagoya",
+        "state": "",
+        "country": "Japan"
+      },
+      {
+        "city": "Osaka",
+        "state": "",
+        "country": "Japan"
+      },
+      {
+        "city": "Sapporo",
+        "state": "",
+        "country": "Japan"
+      },
+      {
+        "city": "Rotterdam",
+        "state": "",
+        "country": "Netherlands"
+      },
+      {
+        "city": "Gda\u0144sk",
+        "state": "",
+        "country": "Poland"
+      },
+      {
+        "city": "\u0141\u00f3d\u017a",
+        "state": "",
+        "country": "Poland"
+      },
+      {
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Madrid",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Seville",
+        "state": "",
+        "country": "Spain"
+      }
+    ]
   },
   {
     "NCTId": "NCT04155944",
@@ -184,7 +975,14 @@
     "LocationCity": "Tainan",
     "LocationState": "",
     "LocationCountry": "Taiwan",
-    "Sponsor": "National Cheng-Kung University Hospital"
+    "Sponsor": "National Cheng-Kung University Hospital",
+    "AllLocations": [
+      {
+        "city": "Tainan",
+        "state": "",
+        "country": "Taiwan"
+      }
+    ]
   },
   {
     "NCTId": "NCT05727046",
@@ -195,7 +993,24 @@
     "LocationCity": "Istanbul",
     "LocationState": "",
     "LocationCountry": "Turkey",
-    "Sponsor": "Karadeniz Technical University"
+    "Sponsor": "Karadeniz Technical University",
+    "AllLocations": [
+      {
+        "city": "Istanbul",
+        "state": "",
+        "country": "Turkey"
+      },
+      {
+        "city": "Istanbul",
+        "state": "",
+        "country": "Turkey"
+      },
+      {
+        "city": "Trabzon",
+        "state": "",
+        "country": "Turkey"
+      }
+    ]
   },
   {
     "NCTId": "NCT06415344",
@@ -206,7 +1021,124 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "AllLocations": [
+      {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "South Brisbane",
+        "state": "Queensland",
+        "country": "Australia"
+      },
+      {
+        "city": "Melbourne",
+        "state": "Victoria",
+        "country": "Australia"
+      },
+      {
+        "city": "Calgary",
+        "state": "Alberta",
+        "country": "Canada"
+      },
+      {
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada"
+      },
+      {
+        "city": "London",
+        "state": "Ontario",
+        "country": "Canada"
+      },
+      {
+        "city": "Ottawa",
+        "state": "Ontario",
+        "country": "Canada"
+      },
+      {
+        "city": "Montreal",
+        "state": "Quebec",
+        "country": "Canada"
+      },
+      {
+        "city": "Marseille",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Hamburg",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Leipzig",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      },
+      {
+        "city": "Majadahonda",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Sabadell",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Cambridge",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "Oxford",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT06353620",
@@ -217,7 +1149,14 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": "IRCCS Eugenio Medea"
+    "Sponsor": "IRCCS Eugenio Medea",
+    "AllLocations": [
+      {
+        "city": "Conegliano",
+        "state": "Treviso",
+        "country": "Italy"
+      }
+    ]
   },
   {
     "NCTId": "NCT01903681",
@@ -228,7 +1167,14 @@
     "LocationCity": "Leiden",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": "Neurim Pharmaceuticals Ltd."
+    "Sponsor": "Neurim Pharmaceuticals Ltd.",
+    "AllLocations": [
+      {
+        "city": "Leiden",
+        "state": "",
+        "country": "Netherlands"
+      }
+    ]
   },
   {
     "NCTId": "NCT03882918",
@@ -239,7 +1185,64 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "AllLocations": [
+      {
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Lexington",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "country": "United States"
+      },
+      {
+        "city": "Media",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Tacoma",
+        "state": "Washington",
+        "country": "United States"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      }
+    ]
   },
   {
     "NCTId": "NCT02670694",
@@ -250,7 +1253,54 @@
     "LocationCity": "Birmingham",
     "LocationState": "Alabama",
     "LocationCountry": "United States",
-    "Sponsor": "Baylor College of Medicine"
+    "Sponsor": "Baylor College of Medicine",
+    "AllLocations": [
+      {
+        "city": "Birmingham",
+        "state": "Alabama",
+        "country": "United States"
+      },
+      {
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Gainesville",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Kansas City",
+        "state": "Kansas",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Greenwood",
+        "state": "South Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT06737718",
@@ -261,7 +1311,14 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "AllLocations": [
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT02109770",
@@ -272,7 +1329,19 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "AllLocations": [
+      {
+        "city": "San Carlos",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT01147575",
@@ -283,7 +1352,14 @@
     "LocationCity": "Vienna",
     "LocationState": "",
     "LocationCountry": "Austria",
-    "Sponsor": "Medical University of Vienna"
+    "Sponsor": "Medical University of Vienna",
+    "AllLocations": [
+      {
+        "city": "Vienna",
+        "state": "",
+        "country": "Austria"
+      }
+    ]
   },
   {
     "NCTId": "NCT01281475",
@@ -294,7 +1370,44 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Wen-Hann Tan"
+    "Sponsor": "Wen-Hann Tan",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "country": "United States"
+      },
+      {
+        "city": "Greenwood",
+        "state": "South Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT05100810",
@@ -305,7 +1418,14 @@
     "LocationCity": "Oxford",
     "LocationState": "Oxon",
     "LocationCountry": "United Kingdom",
-    "Sponsor": "University of Oxford"
+    "Sponsor": "University of Oxford",
+    "AllLocations": [
+      {
+        "city": "Oxford",
+        "state": "Oxon",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT04428281",
@@ -316,7 +1436,64 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "AllLocations": [
+      {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Rochester",
+        "state": "Minnesota",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Carrboro",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Roma",
+        "state": "Lazio",
+        "country": "Italy"
+      },
+      {
+        "city": "Rotterdam",
+        "state": "",
+        "country": "Netherlands"
+      },
+      {
+        "city": "Esplugues De Llobregas",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Sabadell",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Sevilla",
+        "state": "",
+        "country": "Spain"
+      }
+    ]
   },
   {
     "NCTId": "NCT06229769",
@@ -327,7 +1504,14 @@
     "LocationCity": "Li\u00e8ge",
     "LocationState": "",
     "LocationCountry": "Belgium",
-    "Sponsor": "Centre Hospitalier Universitaire de Liege"
+    "Sponsor": "Centre Hospitalier Universitaire de Liege",
+    "AllLocations": [
+      {
+        "city": "Li\u00e8ge",
+        "state": "",
+        "country": "Belgium"
+      }
+    ]
   },
   {
     "NCTId": "NCT03650569",
@@ -338,7 +1522,14 @@
     "LocationCity": "Bergamo",
     "LocationState": "",
     "LocationCountry": "Italy",
-    "Sponsor": "FROM- Fondazione per la Ricerca Ospedale di Bergamo- ETS"
+    "Sponsor": "FROM- Fondazione per la Ricerca Ospedale di Bergamo- ETS",
+    "AllLocations": [
+      {
+        "city": "Bergamo",
+        "state": "",
+        "country": "Italy"
+      }
+    ]
   },
   {
     "NCTId": "NCT03655223",
@@ -349,7 +1540,14 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": "RTI International"
+    "Sponsor": "RTI International",
+    "AllLocations": [
+      {
+        "city": "Research Triangle Park",
+        "state": "North Carolina",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT04259281",
@@ -360,7 +1558,134 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "AllLocations": [
+      {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Heidelberg",
+        "state": "Victoria",
+        "country": "Australia"
+      },
+      {
+        "city": "Parkville",
+        "state": "Victoria",
+        "country": "Australia"
+      },
+      {
+        "city": "South Brisbane",
+        "state": "",
+        "country": "Australia"
+      },
+      {
+        "city": "Calgary",
+        "state": "Alberta",
+        "country": "Canada"
+      },
+      {
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada"
+      },
+      {
+        "city": "London",
+        "state": "Ontario",
+        "country": "Canada"
+      },
+      {
+        "city": "Ottawa",
+        "state": "Ontario",
+        "country": "Canada"
+      },
+      {
+        "city": "Montr\u00e9al",
+        "state": "Quebec",
+        "country": "Canada"
+      },
+      {
+        "city": "Marseille",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Leipzig",
+        "state": "Sachsen",
+        "country": "Germany"
+      },
+      {
+        "city": "Hamburg",
+        "state": "",
+        "country": "Germany"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      },
+      {
+        "city": "Esplugues De Llobregat",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Sabadell",
+        "state": "Barcelona",
+        "country": "Spain"
+      },
+      {
+        "city": "Majadahonda",
+        "state": "Madrid",
+        "country": "Spain"
+      },
+      {
+        "city": "Cambridge",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      },
+      {
+        "city": "Oxford",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    ]
   },
   {
     "NCTId": "NCT06139172",
@@ -371,7 +1696,14 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": "Rush University Medical Center"
+    "Sponsor": "Rush University Medical Center",
+    "AllLocations": [
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT03358823",
@@ -382,7 +1714,14 @@
     "LocationCity": "Shanghai",
     "LocationState": "Shanghai",
     "LocationCountry": "China",
-    "Sponsor": "Fudan University"
+    "Sponsor": "Fudan University",
+    "AllLocations": [
+      {
+        "city": "Shanghai",
+        "state": "Shanghai",
+        "country": "China"
+      }
+    ]
   },
   {
     "NCTId": "NCT01852708",
@@ -393,7 +1732,54 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "AllLocations": [
+      {
+        "city": "San Carlos",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Gabriel",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Washington",
+        "state": "District of Columbia",
+        "country": "United States"
+      },
+      {
+        "city": "New Brunswick",
+        "state": "New Jersey",
+        "country": "United States"
+      },
+      {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      },
+      {
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      },
+      {
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Taipei",
+        "state": "",
+        "country": "Taiwan"
+      }
+    ]
   },
   {
     "NCTId": "NCT03836300",
@@ -404,7 +1790,14 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": "RTI International"
+    "Sponsor": "RTI International",
+    "AllLocations": [
+      {
+        "city": "Research Triangle Park",
+        "state": "North Carolina",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT00296764",
@@ -415,7 +1808,39 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "country": "United States"
+      },
+      {
+        "city": "Greenwood",
+        "state": "South Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT05293184",
@@ -426,7 +1851,14 @@
     "LocationCity": "Brisbane",
     "LocationState": "Queensland",
     "LocationCountry": "Australia",
-    "Sponsor": "Foundation for Angelman Syndrome Therapeutics, Australia"
+    "Sponsor": "Foundation for Angelman Syndrome Therapeutics, Australia",
+    "AllLocations": [
+      {
+        "city": "Brisbane",
+        "state": "Queensland",
+        "country": "Australia"
+      }
+    ]
   },
   {
     "NCTId": "NCT04768803",
@@ -437,7 +1869,19 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "University Hospital, Toulouse"
+    "Sponsor": "University Hospital, Toulouse",
+    "AllLocations": [
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      },
+      {
+        "city": "Toulouse",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT03109756",
@@ -448,7 +1892,19 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "AllLocations": [
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT06914609",
@@ -459,7 +1915,8 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Ionis Pharmaceuticals, Inc."
+    "Sponsor": "Ionis Pharmaceuticals, Inc.",
+    "AllLocations": []
   },
   {
     "NCTId": "NCT06115109",
@@ -470,7 +1927,19 @@
     "LocationCity": "Barcelona",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": "Puerta de Hierro University Hospital"
+    "Sponsor": "Puerta de Hierro University Hospital",
+    "AllLocations": [
+      {
+        "city": "Barcelona",
+        "state": "",
+        "country": "Spain"
+      },
+      {
+        "city": "Madrid",
+        "state": "",
+        "country": "Spain"
+      }
+    ]
   },
   {
     "NCTId": "NCT03644693",
@@ -481,7 +1950,14 @@
     "LocationCity": "Aurora",
     "LocationState": "Colorado",
     "LocationCountry": "United States",
-    "Sponsor": "University of Colorado, Denver"
+    "Sponsor": "University of Colorado, Denver",
+    "AllLocations": [
+      {
+        "city": "Aurora",
+        "state": "Colorado",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT03235037",
@@ -492,7 +1968,8 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Bennett Lavenstein"
+    "Sponsor": "Bennett Lavenstein",
+    "AllLocations": []
   },
   {
     "NCTId": "NCT05011851",
@@ -503,7 +1980,24 @@
     "LocationCity": "Randwick",
     "LocationState": "New South Wales",
     "LocationCountry": "Australia",
-    "Sponsor": "Neuren Pharmaceuticals Limited"
+    "Sponsor": "Neuren Pharmaceuticals Limited",
+    "AllLocations": [
+      {
+        "city": "Randwick",
+        "state": "New South Wales",
+        "country": "Australia"
+      },
+      {
+        "city": "South Brisbane",
+        "state": "Queensland",
+        "country": "Australia"
+      },
+      {
+        "city": "Heidelberg",
+        "state": "Victoria",
+        "country": "Australia"
+      }
+    ]
   },
   {
     "NCTId": "NCT03878251",
@@ -514,7 +2008,14 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "AllLocations": [
+      {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+      }
+    ]
   },
   {
     "NCTId": "NCT00004351",
@@ -525,7 +2026,14 @@
     "LocationCity": "Houston",
     "LocationState": "Texas",
     "LocationCountry": "United States",
-    "Sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)"
+    "Sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)",
+    "AllLocations": [
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT00348933",
@@ -536,7 +2044,29 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "University of California, San Diego"
+    "Sponsor": "University of California, San Diego",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Greenwood",
+        "state": "South Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT03720028",
@@ -547,7 +2077,14 @@
     "LocationCity": "Leuven",
     "LocationState": "Vlaams-Brabant",
     "LocationCountry": "Belgium",
-    "Sponsor": "Universitaire Ziekenhuizen KU Leuven"
+    "Sponsor": "Universitaire Ziekenhuizen KU Leuven",
+    "AllLocations": [
+      {
+        "city": "Leuven",
+        "state": "Vlaams-Brabant",
+        "country": "Belgium"
+      }
+    ]
   },
   {
     "NCTId": "NCT05637697",
@@ -558,7 +2095,14 @@
     "LocationCity": "Kingston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": "The Emmes Company, LLC"
+    "Sponsor": "The Emmes Company, LLC",
+    "AllLocations": [
+      {
+        "city": "Kingston",
+        "state": "Massachusetts",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT06337383",
@@ -569,7 +2113,14 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": "IRCCS Eugenio Medea"
+    "Sponsor": "IRCCS Eugenio Medea",
+    "AllLocations": [
+      {
+        "city": "Conegliano",
+        "state": "Treviso",
+        "country": "Italy"
+      }
+    ]
   },
   {
     "NCTId": "NCT02996305",
@@ -580,7 +2131,74 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "AllLocations": [
+      {
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Gainesville",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Lexington",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "country": "United States"
+      },
+      {
+        "city": "Media",
+        "state": "Pennsylvania",
+        "country": "United States"
+      },
+      {
+        "city": "Greenwood",
+        "state": "South Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Ramat Gan",
+        "state": "",
+        "country": "Israel"
+      }
+    ]
   },
   {
     "NCTId": "NCT04103333",
@@ -591,7 +2209,34 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Biogen"
+    "Sponsor": "Biogen",
+    "AllLocations": [
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Carolina",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      }
+    ]
   },
   {
     "NCTId": "NCT04507997",
@@ -602,6 +2247,63 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "AllLocations": [
+      {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States"
+      },
+      {
+        "city": "Aurora",
+        "state": "Colorado",
+        "country": "United States"
+      },
+      {
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      },
+      {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States"
+      },
+      {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States"
+      },
+      {
+        "city": "Carrboro",
+        "state": "North Carolina",
+        "country": "United States"
+      },
+      {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      },
+      {
+        "city": "Calgary",
+        "state": "Alberta",
+        "country": "Canada"
+      },
+      {
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada"
+      },
+      {
+        "city": "Ottawa",
+        "state": "Ontario",
+        "country": "Canada"
+      }
+    ]
   }
 ]
