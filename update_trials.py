@@ -40,25 +40,8 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
-    eligmod = ps.get("eligibilityModule", {})
 
-    # === Collect all locations as array of dicts ===
-    all_locations = []
-    for loc in contactmod.get("locations", []):
-        facility = loc.get("locationFacility", {})
-        loc_data = {
-            "city": facility.get("city", ""),
-            "state": facility.get("state", ""),
-            "country": facility.get("country", "")
-        }
-        if any(loc_data.values()):
-            all_locations.append(loc_data)
-
-    # === Extract age data ===
-    min_age = eligmod.get("minimumAge", "")
-    max_age = eligmod.get("maximumAge", "")
-    age_groups = eligmod.get("ageGroups", [])
-
+    # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -68,18 +51,16 @@ for study in studies:
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": "",
-        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
-        "AllLocations": all_locations,
-        "MinimumAge": min_age,
-        "MaximumAge": max_age,
-        "AgeGroups": age_groups
+        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", "")
     }
 
-    # Fallback to first location for legacy display
-    if all_locations:
-        trial["LocationCity"] = all_locations[0]["city"]
-        trial["LocationState"] = all_locations[0]["state"]
-        trial["LocationCountry"] = all_locations[0]["country"]
+    # ✅ Pull first location fields for fallback
+    locations = contactmod.get("locations", [])
+    if locations and isinstance(locations, list):
+        first_loc = locations[0]
+        trial["LocationCity"] = first_loc.get("city", "")
+        trial["LocationState"] = first_loc.get("state", "")
+        trial["LocationCountry"] = first_loc.get("country", "")
 
     trials.append(trial)
 
