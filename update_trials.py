@@ -40,9 +40,9 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
-    eligmod = ps.get("eligibilityModule", {})  # ✅ for ages
+    eligmod = ps.get("eligibilityModule", {})
 
-    # === WORKING Location logic ===
+    # === Collect all locations as array of dicts ===
     all_locations = []
     for loc in contactmod.get("locations", []):
         facility = loc.get("locationFacility", {})
@@ -53,6 +53,11 @@ for study in studies:
         }
         if any(loc_data.values()):
             all_locations.append(loc_data)
+
+    # === Extract age data ===
+    min_age = eligmod.get("minimumAge", "")
+    max_age = eligmod.get("maximumAge", "")
+    age_groups = eligmod.get("ageGroups", [])
 
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -65,11 +70,12 @@ for study in studies:
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
-        "MinimumAge": eligmod.get("minimumAge", ""),  # ✅
-        "MaximumAge": eligmod.get("maximumAge", "")   # ✅
+        "MinimumAge": min_age,
+        "MaximumAge": max_age,
+        "AgeGroups": age_groups
     }
 
-    # Fallback to first location (WORKING)
+    # Fallback to first location for legacy display
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
