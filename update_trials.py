@@ -39,6 +39,7 @@ for study in studies:
     statmod = ps.get("statusModule", {})
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
+    eligmod = ps.get("eligibilityModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
     # === Trial data ===
@@ -51,7 +52,9 @@ for study in studies:
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": "",
-        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", "")
+        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
+        "MinimumAge": eligmod.get("minimumAge", ""),
+        "MaximumAge": eligmod.get("maximumAge", "")
     }
 
     # ✅ Pull first location fields for fallback
