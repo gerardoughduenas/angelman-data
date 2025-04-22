@@ -41,6 +41,18 @@ for study in studies:
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
 
+    # === Collect all locations as array of dicts ===
+    all_locations = []
+    for loc in contactmod.get("locations", []):
+        loc_data = {
+            "city": loc.get("city", ""),
+            "state": loc.get("state", ""),
+            "country": loc.get("country", "")
+        }
+        if any(loc_data.values()):
+            all_locations.append(loc_data)
+
+    # === Trial data ===
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -50,16 +62,15 @@ for study in studies:
         "LocationCity": "",
         "LocationState": "",
         "LocationCountry": "",
-        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", "")
+        "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
+        "AllLocations": all_locations
     }
 
-    # ✅ Pull top-level location fields
-    locations = contactmod.get("locations", [])
-    if locations and isinstance(locations, list):
-        first_loc = locations[0]
-        trial["LocationCity"] = first_loc.get("city", "")
-        trial["LocationState"] = first_loc.get("state", "")
-        trial["LocationCountry"] = first_loc.get("country", "")
+    # Fallback to first location for display compatibility
+    if all_locations:
+        trial["LocationCity"] = all_locations[0]["city"]
+        trial["LocationState"] = all_locations[0]["state"]
+        trial["LocationCountry"] = all_locations[0]["country"]
 
     trials.append(trial)
 
