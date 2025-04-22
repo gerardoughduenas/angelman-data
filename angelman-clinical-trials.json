@@ -8,7 +8,9 @@
     "LocationCity": "San Francisco",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "MinimumAge": "18 Years",
+    "MaximumAge": "48 Years"
   },
   {
     "NCTId": "NCT04106557",
@@ -19,7 +21,9 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT05127226",
@@ -30,7 +34,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ionis Pharmaceuticals, Inc."
+    "Sponsor": "Ionis Pharmaceuticals, Inc.",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "50 Years"
   },
   {
     "NCTId": "NCT05630066",
@@ -41,7 +47,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "MinimumAge": "5 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT01906866",
@@ -52,7 +60,9 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Neurim Pharmaceuticals Ltd."
+    "Sponsor": "Neurim Pharmaceuticals Ltd.",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT05783791",
@@ -63,7 +73,9 @@
     "LocationCity": "Madison",
     "LocationState": "Wisconsin",
     "LocationCountry": "United States",
-    "Sponsor": "University of Wisconsin, Madison"
+    "Sponsor": "University of Wisconsin, Madison",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT01531582",
@@ -74,7 +86,9 @@
     "LocationCity": "Tampa",
     "LocationState": "Florida",
     "LocationCountry": "United States",
-    "Sponsor": "University of South Florida"
+    "Sponsor": "University of South Florida",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT02056665",
@@ -85,7 +99,9 @@
     "LocationCity": "Madrid",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": "Puerta de Hierro University Hospital"
+    "Sponsor": "Puerta de Hierro University Hospital",
+    "MinimumAge": "6 Years",
+    "MaximumAge": "30 Years"
   },
   {
     "NCTId": "NCT05945576",
@@ -96,7 +112,9 @@
     "LocationCity": "Angers",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France"
+    "Sponsor": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT04863794",
@@ -107,7 +125,9 @@
     "LocationCity": "Groningen",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "MinimumAge": "25 Years",
+    "MaximumAge": "55 Years"
   },
   {
     "NCTId": "NCT00773825",
@@ -118,7 +138,9 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "MinimumAge": "26 Years",
+    "MaximumAge": "40 Years"
   },
   {
     "NCTId": "NCT02226458",
@@ -129,7 +151,9 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Edison Pharmaceuticals Inc"
+    "Sponsor": "Edison Pharmaceuticals Inc",
+    "MinimumAge": "3 Years",
+    "MaximumAge": "14 Years"
   },
   {
     "NCTId": "NCT06878716",
@@ -140,7 +164,9 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "MinimumAge": "18 Years",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT00829439",
@@ -151,7 +177,9 @@
     "LocationCity": "Boston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT06314490",
@@ -162,7 +190,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "University of California, San Diego"
+    "Sponsor": "University of California, San Diego",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT06617429",
@@ -173,7 +203,9 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT04155944",
@@ -184,7 +216,9 @@
     "LocationCity": "Tainan",
     "LocationState": "",
     "LocationCountry": "Taiwan",
-    "Sponsor": "National Cheng-Kung University Hospital"
+    "Sponsor": "National Cheng-Kung University Hospital",
+    "MinimumAge": "",
+    "MaximumAge": "45 Years"
   },
   {
     "NCTId": "NCT05727046",
@@ -195,7 +229,9 @@
     "LocationCity": "Istanbul",
     "LocationState": "",
     "LocationCountry": "Turkey",
-    "Sponsor": "Karadeniz Technical University"
+    "Sponsor": "Karadeniz Technical University",
+    "MinimumAge": "9 Months",
+    "MaximumAge": "18 Years"
   },
   {
     "NCTId": "NCT06415344",
@@ -206,7 +242,9 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT06353620",
@@ -217,7 +255,9 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": "IRCCS Eugenio Medea"
+    "Sponsor": "IRCCS Eugenio Medea",
+    "MinimumAge": "6 Years",
+    "MaximumAge": "75 Years"
   },
   {
     "NCTId": "NCT01903681",
@@ -228,7 +268,9 @@
     "LocationCity": "Leiden",
     "LocationState": "",
     "LocationCountry": "Netherlands",
-    "Sponsor": "Neurim Pharmaceuticals Ltd."
+    "Sponsor": "Neurim Pharmaceuticals Ltd.",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT03882918",
@@ -239,7 +281,9 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "MinimumAge": "13 Years",
+    "MaximumAge": "49 Years"
   },
   {
     "NCTId": "NCT02670694",
@@ -250,7 +294,9 @@
     "LocationCity": "Birmingham",
     "LocationState": "Alabama",
     "LocationCountry": "United States",
-    "Sponsor": "Baylor College of Medicine"
+    "Sponsor": "Baylor College of Medicine",
+    "MinimumAge": "1 Year",
+    "MaximumAge": "18 Years"
   },
   {
     "NCTId": "NCT06737718",
@@ -261,7 +307,9 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "MinimumAge": "3 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT02109770",
@@ -272,7 +320,9 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT01147575",
@@ -283,7 +333,9 @@
     "LocationCity": "Vienna",
     "LocationState": "",
     "LocationCountry": "Austria",
-    "Sponsor": "Medical University of Vienna"
+    "Sponsor": "Medical University of Vienna",
+    "MinimumAge": "3 Years",
+    "MaximumAge": "24 Years"
   },
   {
     "NCTId": "NCT01281475",
@@ -294,7 +346,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Wen-Hann Tan"
+    "Sponsor": "Wen-Hann Tan",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT05100810",
@@ -305,7 +359,9 @@
     "LocationCity": "Oxford",
     "LocationState": "Oxon",
     "LocationCountry": "United Kingdom",
-    "Sponsor": "University of Oxford"
+    "Sponsor": "University of Oxford",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT04428281",
@@ -316,7 +372,9 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Hoffmann-La Roche"
+    "Sponsor": "Hoffmann-La Roche",
+    "MinimumAge": "1 Year",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT06229769",
@@ -327,7 +385,9 @@
     "LocationCity": "Li\u00e8ge",
     "LocationState": "",
     "LocationCountry": "Belgium",
-    "Sponsor": "Centre Hospitalier Universitaire de Liege"
+    "Sponsor": "Centre Hospitalier Universitaire de Liege",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT03650569",
@@ -338,7 +398,9 @@
     "LocationCity": "Bergamo",
     "LocationState": "",
     "LocationCountry": "Italy",
-    "Sponsor": "FROM- Fondazione per la Ricerca Ospedale di Bergamo- ETS"
+    "Sponsor": "FROM- Fondazione per la Ricerca Ospedale di Bergamo- ETS",
+    "MinimumAge": "1 Day",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT03655223",
@@ -349,7 +411,9 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": "RTI International"
+    "Sponsor": "RTI International",
+    "MinimumAge": "1 Day",
+    "MaximumAge": "31 Days"
   },
   {
     "NCTId": "NCT04259281",
@@ -360,7 +424,9 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Ultragenyx Pharmaceutical Inc"
+    "Sponsor": "Ultragenyx Pharmaceutical Inc",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT06139172",
@@ -371,7 +437,9 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": "Rush University Medical Center"
+    "Sponsor": "Rush University Medical Center",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "12 Years"
   },
   {
     "NCTId": "NCT03358823",
@@ -382,7 +450,9 @@
     "LocationCity": "Shanghai",
     "LocationState": "Shanghai",
     "LocationCountry": "China",
-    "Sponsor": "Fudan University"
+    "Sponsor": "Fudan University",
+    "MinimumAge": "",
+    "MaximumAge": "18 Years"
   },
   {
     "NCTId": "NCT01852708",
@@ -393,7 +463,9 @@
     "LocationCity": "San Carlos",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Natera, Inc."
+    "Sponsor": "Natera, Inc.",
+    "MinimumAge": "18 Years",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT03836300",
@@ -404,7 +476,9 @@
     "LocationCity": "Research Triangle Park",
     "LocationState": "North Carolina",
     "LocationCountry": "United States",
-    "Sponsor": "RTI International"
+    "Sponsor": "RTI International",
+    "MinimumAge": "",
+    "MaximumAge": "99 Years"
   },
   {
     "NCTId": "NCT00296764",
@@ -415,7 +489,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "MinimumAge": "1 Day",
+    "MaximumAge": "60 Years"
   },
   {
     "NCTId": "NCT05293184",
@@ -426,7 +502,9 @@
     "LocationCity": "Brisbane",
     "LocationState": "Queensland",
     "LocationCountry": "Australia",
-    "Sponsor": "Foundation for Angelman Syndrome Therapeutics, Australia"
+    "Sponsor": "Foundation for Angelman Syndrome Therapeutics, Australia",
+    "MinimumAge": "",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT04768803",
@@ -437,7 +515,9 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "University Hospital, Toulouse"
+    "Sponsor": "University Hospital, Toulouse",
+    "MinimumAge": "3 Years",
+    "MaximumAge": "50 Years"
   },
   {
     "NCTId": "NCT03109756",
@@ -448,7 +528,9 @@
     "LocationCity": "Chicago",
     "LocationState": "Illinois",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "MinimumAge": "13 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT06914609",
@@ -459,7 +541,9 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Ionis Pharmaceuticals, Inc."
+    "Sponsor": "Ionis Pharmaceuticals, Inc.",
+    "MinimumAge": "2 Years",
+    "MaximumAge": "50 Years"
   },
   {
     "NCTId": "NCT06115109",
@@ -470,7 +554,9 @@
     "LocationCity": "Barcelona",
     "LocationState": "",
     "LocationCountry": "Spain",
-    "Sponsor": "Puerta de Hierro University Hospital"
+    "Sponsor": "Puerta de Hierro University Hospital",
+    "MinimumAge": "3 Months",
+    "MaximumAge": "99 Years"
   },
   {
     "NCTId": "NCT03644693",
@@ -481,7 +567,9 @@
     "LocationCity": "Aurora",
     "LocationState": "Colorado",
     "LocationCountry": "United States",
-    "Sponsor": "University of Colorado, Denver"
+    "Sponsor": "University of Colorado, Denver",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "11 Years"
   },
   {
     "NCTId": "NCT03235037",
@@ -492,7 +580,9 @@
     "LocationCity": "",
     "LocationState": "",
     "LocationCountry": "",
-    "Sponsor": "Bennett Lavenstein"
+    "Sponsor": "Bennett Lavenstein",
+    "MinimumAge": "18 Months",
+    "MaximumAge": "16 Years"
   },
   {
     "NCTId": "NCT05011851",
@@ -503,7 +593,9 @@
     "LocationCity": "Randwick",
     "LocationState": "New South Wales",
     "LocationCountry": "Australia",
-    "Sponsor": "Neuren Pharmaceuticals Limited"
+    "Sponsor": "Neuren Pharmaceuticals Limited",
+    "MinimumAge": "3 Years",
+    "MaximumAge": "17 Years"
   },
   {
     "NCTId": "NCT03878251",
@@ -514,7 +606,9 @@
     "LocationCity": "Paris",
     "LocationState": "",
     "LocationCountry": "France",
-    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris"
+    "Sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+    "MinimumAge": "6 Years",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT00004351",
@@ -525,7 +619,9 @@
     "LocationCity": "Houston",
     "LocationState": "Texas",
     "LocationCountry": "United States",
-    "Sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)"
+    "Sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)",
+    "MinimumAge": "0 Years",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT00348933",
@@ -536,7 +632,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "University of California, San Diego"
+    "Sponsor": "University of California, San Diego",
+    "MinimumAge": "1 Day",
+    "MaximumAge": "5 Years"
   },
   {
     "NCTId": "NCT03720028",
@@ -547,7 +645,9 @@
     "LocationCity": "Leuven",
     "LocationState": "Vlaams-Brabant",
     "LocationCountry": "Belgium",
-    "Sponsor": "Universitaire Ziekenhuizen KU Leuven"
+    "Sponsor": "Universitaire Ziekenhuizen KU Leuven",
+    "MinimumAge": "1 Year",
+    "MaximumAge": "14 Years"
   },
   {
     "NCTId": "NCT05637697",
@@ -558,7 +658,9 @@
     "LocationCity": "Kingston",
     "LocationState": "Massachusetts",
     "LocationCountry": "United States",
-    "Sponsor": "The Emmes Company, LLC"
+    "Sponsor": "The Emmes Company, LLC",
+    "MinimumAge": "1 Year",
+    "MaximumAge": ""
   },
   {
     "NCTId": "NCT06337383",
@@ -569,7 +671,9 @@
     "LocationCity": "Conegliano",
     "LocationState": "Treviso",
     "LocationCountry": "Italy",
-    "Sponsor": "IRCCS Eugenio Medea"
+    "Sponsor": "IRCCS Eugenio Medea",
+    "MinimumAge": "4 Years",
+    "MaximumAge": "14 Years"
   },
   {
     "NCTId": "NCT02996305",
@@ -580,7 +684,9 @@
     "LocationCity": "Phoenix",
     "LocationState": "Arizona",
     "LocationCountry": "United States",
-    "Sponsor": "Ovid Therapeutics Inc."
+    "Sponsor": "Ovid Therapeutics Inc.",
+    "MinimumAge": "13 Years",
+    "MaximumAge": "49 Years"
   },
   {
     "NCTId": "NCT04103333",
@@ -591,7 +697,9 @@
     "LocationCity": "San Diego",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Biogen"
+    "Sponsor": "Biogen",
+    "MinimumAge": "",
+    "MaximumAge": "50 Years"
   },
   {
     "NCTId": "NCT04507997",
@@ -602,6 +710,8 @@
     "LocationCity": "Los Angeles",
     "LocationState": "California",
     "LocationCountry": "United States",
-    "Sponsor": "Boston Children's Hospital"
+    "Sponsor": "Boston Children's Hospital",
+    "MinimumAge": "",
+    "MaximumAge": ""
   }
 ]
