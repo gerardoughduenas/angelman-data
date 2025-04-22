@@ -42,7 +42,7 @@ for study in studies:
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
     eligmod = ps.get("eligibilityModule", {})
 
-    # ✅ All locations
+    # ✅ Locations (reverted logic)
     all_locations = []
     for loc in contactmod.get("locations", []):
         facility = loc.get("locationFacility", {})
@@ -54,12 +54,10 @@ for study in studies:
         if any(loc_data.values()):
             all_locations.append(loc_data)
 
-    # ✅ Age data
+    # ✅ Age (keep min/max age)
     min_age = eligmod.get("minimumAge", "")
     max_age = eligmod.get("maximumAge", "")
-    age_groups = eligmod.get("ageGroups", [])
 
-    # ✅ Trial object
     trial = {
         "NCTId": idmod.get("nctId", ""),
         "BriefTitle": idmod.get("briefTitle", ""),
@@ -72,8 +70,7 @@ for study in studies:
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
         "MinimumAge": min_age,
-        "MaximumAge": max_age,
-        "AgeGroups": age_groups
+        "MaximumAge": max_age
     }
 
     # ✅ Fallback to first location
