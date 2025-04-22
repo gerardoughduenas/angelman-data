@@ -40,9 +40,9 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
-    eligmod = ps.get("eligibilityModule", {})  # ✅ eligibility for min/max age
+    eligmod = ps.get("eligibilityModule", {})  # ✅ for ages
 
-    # === Locations (working version) ===
+    # === WORKING Location logic ===
     all_locations = []
     for loc in contactmod.get("locations", []):
         facility = loc.get("locationFacility", {})
@@ -65,11 +65,11 @@ for study in studies:
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
-        "MinimumAge": eligmod.get("minimumAge", ""),  # ✅ Add min age
-        "MaximumAge": eligmod.get("maximumAge", "")   # ✅ Add max age
+        "MinimumAge": eligmod.get("minimumAge", ""),  # ✅
+        "MaximumAge": eligmod.get("maximumAge", "")   # ✅
     }
 
-    # Fallback to first location
+    # Fallback to first location (WORKING)
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
