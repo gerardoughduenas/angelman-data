@@ -40,9 +40,9 @@ for study in studies:
     descmod = ps.get("descriptionModule", {})
     contactmod = ps.get("contactsLocationsModule", {})
     sponsormod = ps.get("sponsorCollaboratorsModule", {})
-    eligmod = ps.get("eligibilityModule", {})
+    eligmod = ps.get("eligibilityModule", {})  # ✅ eligibility for min/max age
 
-    # ✅ Locations (reverted logic)
+    # === Locations (working version) ===
     all_locations = []
     for loc in contactmod.get("locations", []):
         facility = loc.get("locationFacility", {})
@@ -53,10 +53,6 @@ for study in studies:
         }
         if any(loc_data.values()):
             all_locations.append(loc_data)
-
-    # ✅ Age (keep min/max age)
-    min_age = eligmod.get("minimumAge", "")
-    max_age = eligmod.get("maximumAge", "")
 
     trial = {
         "NCTId": idmod.get("nctId", ""),
@@ -69,11 +65,11 @@ for study in studies:
         "LocationCountry": "",
         "Sponsor": sponsormod.get("leadSponsor", {}).get("name", ""),
         "AllLocations": all_locations,
-        "MinimumAge": min_age,
-        "MaximumAge": max_age
+        "MinimumAge": eligmod.get("minimumAge", ""),  # ✅ Add min age
+        "MaximumAge": eligmod.get("maximumAge", "")   # ✅ Add max age
     }
 
-    # ✅ Fallback to first location
+    # Fallback to first location
     if all_locations:
         trial["LocationCity"] = all_locations[0]["city"]
         trial["LocationState"] = all_locations[0]["state"]
